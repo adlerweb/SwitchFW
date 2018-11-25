@@ -1,0 +1,22 @@
+#!/bin/bash
+#LOW: 0x3F
+#HIGH:0x81
+#
+#OCDEN (Debugger)	0	def
+#JTAGEN (JTAG)		1	def
+#SPIEN (ISP)		1	def
+#CKOPT			1
+#EESAVE			1	-> Config bei Update beibehalten
+#BOOTSZ1		1	def
+#BOOTSZ0		1	def
+#BOOTRST		0	def
+#BODLEVEL		1
+#BODEN			1	Brown Out ~4V
+#SUT1			0
+#SUT0			0
+#CKSEL3			0
+#CKSEL2			0
+#CKSEL1			0
+#CKSEL0			0	Externer Quarz, 16MHz
+
+/usr/bin/avrdude -C /etc/avrdude.conf -p m16 -P /dev/ttyUSB0 -c stk500  -u -U hfuse:w:0x81:m -U lfuse:w:0x3F:m 

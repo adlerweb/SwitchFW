@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "SwitchFW", "SwitchFW\SwitchFW.cproj", "{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASB_DEVBRD|AVR = ASB_DEVBRD|AVR
+		ASB_THRIO_RFID|AVR = ASB_THRIO_RFID|AVR
+		ASB_THRIO|AVR = ASB_THRIO|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_DEVBRD|AVR.ActiveCfg = ASB_DEVBRD|AVR
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_DEVBRD|AVR.Build.0 = ASB_DEVBRD|AVR
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_THRIO_RFID|AVR.ActiveCfg = ASB_THRIO_RFID|AVR
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_THRIO_RFID|AVR.Build.0 = ASB_THRIO_RFID|AVR
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_THRIO|AVR.ActiveCfg = ASB_THRIO|AVR
+		{E85E7399-E5DC-4CF7-AF8A-8A29196135C2}.ASB_THRIO|AVR.Build.0 = ASB_THRIO|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
